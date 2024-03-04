@@ -1,0 +1,46 @@
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 30px; /* Khoảng cách giữa các mục menu */
+    margin-top: 30px; /* Lùi xuống dưới 1 chút so với phần trên */
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 5px 10px; /* Định dạng kích thước của các ô menu */
+    border: 1px solid #ccc; /* Định dạng viền */
+    border-radius: 5px; /* Định dạng viền cong */
+    color: white; /* Màu chữ */
+    font-size: 16px;
+    font-weight: bold; /* In đậm */
+}
+
+.menu ul li a:hover {
+    background-color: #f70707; /* Màu nền khi di chuột qua */
+}
+
+h2{
+    margin-left: 120px;
+    font-size: 16px;
+    color: #f70707;
+}
+
+.container {
+    width: 100%;
+}
+
+.box {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.clearfix {
+    clear: both;
+}
